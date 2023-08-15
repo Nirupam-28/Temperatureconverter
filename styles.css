@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(thermometer1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vmax;
+    align-items: center;
+}
+
+.title h1{
+    position: relative;
+    font-weight: 900;
+    text-align: center;
+    top:50px;
+    left:0;
+}
+.convert-rows{
+    display: flex;
+    width:50%;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-radius: 15px;
+    padding:60px 25px;
+}
+.columns{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color:black;
+}
+.columns input{
+    width:175px;
+    height:40px;
+    background-color:fff;
+    border-radius: 7px;
+    text-align: center;
+}
